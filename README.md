@@ -1,4 +1,4 @@
-## 1. Nama dan Deskripsi Singkat Program
+## Editor Citra Digital
 
 **Editor Citra Digital (MainApp)** adalah aplikasi berbasis MATLAB App Designer
 untuk pengolahan citra. Aplikasi menyediakan transformasi intensitas, ekualisasi dan pencocokan histogram,
@@ -6,7 +6,7 @@ serta filtering untuk menghaluskan atau menajamkan citra. Pengguna dapat
 melihat pratinjau hasil, menerapkan atau membatalkan perubahan, menggunakan
 Undo/Redo, dan menyimpan citra hasil pengolahan.
 
-## 2. Dependensi
+## Dependensi
 
 - **MATLAB** dengan App Designer. Program dikembangkan dan diuji menggunakan
   MATLAB R2026a.
@@ -16,7 +16,7 @@ Undo/Redo, dan menyimpan citra hasil pengolahan.
   `HistogramTransforms.m`, `ImageFilters.m`, dan `restoreImageClass.m`
   berada dalam folder yang sama dengan `MainApp.mlapp`.
 
-## 3. Tata Cara Menjalankan Program
+## How to Run
 
 1. Buka MATLAB dan arahkan **Current Folder** ke folder proyek.
 2. Buka `MainApp.mlapp` melalui App Designer, lalu klik **Run**. Alternatifnya,
